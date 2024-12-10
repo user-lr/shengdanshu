@@ -4,7 +4,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
 
-    <title>圣诞快乐</title>
+    <title>圣诞快乐呀</title>
 
     <style>
       button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0} menu,article,aside,details,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{}button,select{text-transform:none}[type=submit], [type=reset],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}/*# sourceMappingURL=normalize.min.css.map */
@@ -137,7 +137,10 @@
   </head>
 
   <body translate="no">
-   
+   <!-- <audio autoplay>
+    <source src="https://music.163.com/song/media/outer/url?id=16424418.mp3" type="audio/mp3">
+  </audio> -->
+
 
  
  
@@ -2157,7 +2160,6 @@ new la({color:void 0!==b?b:16777215}))};k.WrapAroundEnding=2402;k.XHRLoader=func
     <div id="labels"></div>
 
     <script id="rendered-js">
-      // 💗 ‼️ ‼️ 想要说的话在这里修改 💗
       const my_labels = [
        "亲爱的高楠女士!!!",
 			"Merry Christmas!圣诞快乐呀!!!🎄🎉",
@@ -2192,7 +2194,7 @@ new la({color:void 0!==b?b:16777215}))};k.WrapAroundEnding=2402;k.XHRLoader=func
 			"加油!!!!!!!!",
 			"顺利保研,未来一片光明!!!",
 			"加油!!!!!!!!",
-			"----来自某不知名男子,哈哈"
+			"某不知名男子---致'楠人'"
       ];
       const { PI, sin, cos } = Math;
       const TAU = 2 * PI;
@@ -2255,7 +2257,7 @@ new la({color:void 0!==b?b:16777215}))};k.WrapAroundEnding=2402;k.XHRLoader=func
             labels.className = "hide";
             labels.innerHTML = my_labels[i];
             labels.className = "show";
-          }, 3000 * i);
+          }, 5200 * i);
         }
 
         scene = new THREE.Scene();
@@ -2333,13 +2335,14 @@ new la({color:void 0!==b?b:16777215}))};k.WrapAroundEnding=2402;k.XHRLoader=func
           '<div class="text-loading">Merry Christmas ...</div>';
         
         const files = [
-           //"http://music.163.com/song/media/outer/url?id=448704788.mp3", // ! 音乐资源获取
+           //"http://music.163.com/song/media/outer/url?id=16424418.mp3", // ! 音乐资源获取
+          "https://m10.music.126.net/20241210133941/2b332d3377c7aca3141e37ce6cc38815/ymusic/d658/2b6c/d994/66848ef8e5de75535bb59dd9e911aad8.mp3"
           // 修改下面这个链接
-          //"http://m10.music.126.net/20231210135814/b2ca7948cdbf1e3be2513d0a82c4bb92/ymusic/3bc8/7ba8/8643/56e188fb5a29b25ce695510164a28331.mp3",
-          //"https://music.163.com/outchain/player?type=2&id=1824020871",
+          //"https://music.163.com/outchain/player?type=2&id=16424418",
           //"这里填你自己的音乐链接",
           // 海外用户使用下面这个音乐平台
-          "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
+          //"https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Simon_Panrucker/Happy_Christmas_You_Guys/Simon_Panrucker_-_01_-_Snowflakes_Falling_Down.mp3",
+        //"http://music.163.com/song/media/outer/url?id=16424418.mp3",
         ];
 
         const file = files[i];
